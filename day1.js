@@ -1,82 +1,62 @@
-// printing 
-console.log("Hello World")
+console.log('hello')
 
-
-// variables-can't be a reserved keywords & be meaningful
-
-let a=5
-console.log(a)
-let b="Hello"
+let a=3
+let b='sun'
+let c=65
+console.log(a+c)
 console.log(b)
-// let can be updated but can't be re-declared
 
-var h="toy"
-console.log(h)
-// var can be updated and re-declared
+b=87
+console.log(b)
 
-const e=654
-console.log(e)
-// const can't be re-declared and updated
+let student={
+    roll : 34,
+    branch :'cs'
+};
+console.log(student.roll)
+console.log(student.branch)
 
+let n=[23,6,87,6];
+console.log(n)
+console.log(n[2])
+console.log(student['branch'])
 
-// primitive data types 
-// 1.string
-// 2.boolean
-// 3.undefined
-// 4.null
+console.log(2**3)
+console.log(4>3)
+console.log(8*4==20)
 
+let j=43
+let r='43'
+console.log(j==r)
+console.log(j===r)
 
-// reference types 
-// 1.objects
-// 2.arrays-used to contain list of item
-// 3.functions
+let d=(j>34)?console.log('yes'):console.log('no')
 
+console.log(3|2)     //bitwise
+console.log(3&2)     //bitwise
 
-// operators
-// 1.arithmetic
-// 2.assignment
-// 3.comparison
-// 4.bitwise
-// 5.logical
-
-
-// ternary operator
-let age =17
-let status= (age>=10) ? 'yes drive': 'no vote'
-console.log(status)
-
-
-// logical operator
-// AND, OR & NOT
-
-
-// control statement 
-// 1.if-else 
-// 2.switch 
-
-
-// loops
-// 1.for loop
-// 2.while loop
-// 3.do-while loop
-// 4.what is an infinite loop
-// 5.for-in loop
-// 6.for-of loop
-
-
-for(let i=0;i<5;i++){
-    console.log(i)
+if(j>4){
+    console.log('hii')
+}
+else{
+    console.log('hello')
 }
 
-let o=1
-while(o<7){
+switch(j){
+    case 3: console.log('umm')
+    break
+    case 10: console.log('yeh')
+    break
+    default : console.log('oops')
+}
+
+for(let i=0;i<5;i++){
+    console.log('hello world')
+}
+
+let m=9
+let o=0
+while(o<m){
     console.log(o)
     o++
 }
-
-let t=2
-do{
-    console.log(t)
-    t++
-}
-while(t<9)

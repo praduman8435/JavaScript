@@ -1,1 +1,1 @@
-# JavaScript
+# Full-JavaScript-Course
